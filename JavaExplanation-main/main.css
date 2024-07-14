@@ -12,5 +12,13 @@ body {
     word-wrap: break-word;
     max-width: 980px;
     margin: 2em auto;
-    padding: 0px 30px;
+    padding: 0px 100px;
+}
+
+strong {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 125%;
+    padding: 0 0.2em;
+    color: #ff8800;
 }
