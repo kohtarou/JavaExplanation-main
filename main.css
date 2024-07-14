@@ -23,7 +23,16 @@ strong {
     color: #ff8800;
 }
 
-.gnav-list {
-    display: flex;
+.box3 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #cde4ff;/*背景色*/
+}
 
+.gnav-list {
+    list-style: none;
+    padding: 0;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
 }
