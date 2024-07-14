@@ -22,3 +22,8 @@ strong {
     padding: 0 0.2em;
     color: #ff8800;
 }
+
+.gnav-list {
+    display: flex;
+    justify-content: space-evenly;
+}
