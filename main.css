@@ -28,6 +28,7 @@ h3 {
 body {
     color: #232323;
     line-height: 2.0;
+    font-size: 100%;
     box-sizing: border-box;
     word-wrap: break-word;
     max-width: 980px;
