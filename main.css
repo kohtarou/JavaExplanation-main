@@ -32,6 +32,8 @@ strong {
 
 .gnav-list {
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
     padding: 0;
     margin-block-start: 0.7em;
     margin-block-end: 0.7em;
