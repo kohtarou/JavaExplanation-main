@@ -74,8 +74,12 @@ const z = 30;</code></pre>
         </ul>
 
     <h3>関数の宣言</h3>
-    <p>JavaScriptでは、関数を定義する方法は複数あります。</p>
-        <pre><code>// 関数宣言
+    <p>JavaScriptでは、<code>function</code>キーワードを使って関数を宣言します。</p>
+        <pre><code>function 関数名(引数1, 引数2, ...) {
+    // 関数の処理
+}
+
+// 関数宣言
 function greet() {
     console.log('Hello, world!');
 }
@@ -90,6 +94,41 @@ const greet = () => {
     console.log('Hello, world!');
 };</code></pre>
 
+    <h3>条件式</h3>
+    <p>JavaScriptでは、条件によって処理を分岐させるために、<code>if</code>文や<code>switch</code>文を使います。</p>
+        <pre><code>if (条件式) {
+    // 条件が真の場合の処理
+} else {
+    // 条件が偽の場合の処理
+}
+
+if (x > 10) {
+    console.log('xは10より大きい');
+} else {
+    console.log('xは10以下');
+}</code></pre>
+
+    <h3>ループ</h3>
+    <p>JavaScriptでは、<code>for</code>文や<code>while</code>文を使って繰り返し処理を行います。</p>
+        <pre><code>//forループ
+for (初期化式; 条件式; 更新式) {
+    // 繰り返し処理
+}
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+//whileループ
+while (条件式) {
+    // 繰り返し処理
+}
+
+let i = 0;
+while (i < 5) {
+    console.log(i);
+    i++;
+}</code></pre>
 
 </body>
 </html>
