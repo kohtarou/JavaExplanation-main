@@ -78,7 +78,7 @@ pre {
     -webkit-overflow-scrolling: touch;  /* スクロールバーの滑らかさ */
 }
 
-.data-list {
+h3 ul {
     background: #fffcf4;
     border-radius :8px;/*角の丸み*/
     box-shadow :0px 0px 5px silver;/*5px=影の広がり具合*/
