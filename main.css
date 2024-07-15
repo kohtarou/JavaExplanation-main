@@ -78,11 +78,11 @@ pre {
     -webkit-overflow-scrolling: touch;  /* スクロールバーの滑らかさ */
 }
 
-h3 ul {
+.data-list {
     background: #fffcf4;
     border-radius :8px;/*角の丸み*/
     box-shadow :0px 0px 5px silver;/*5px=影の広がり具合*/
-    padding: 0;
+    padding: 0.5em 0.5em 0.5em 2em;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
